@@ -100,7 +100,7 @@ public class Main {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
         BufferedReader bufferedReader = new BufferedReader(
-                new FileReader("C:\\users\\rhaveson\\seed-data\\matches1.json"));
+                new FileReader("data\\matches1.json"));
 
         MatchList matches = null;
 
